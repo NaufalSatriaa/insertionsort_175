@@ -27,7 +27,7 @@ void input() { //procedure input
 	for (int i = 0; i < n; i++) //menggunakan pengulangan for untuk menyimpan data pada array
 	{
 		cout << "data ke-" << (i + 1) << ": "; //memasukkan atau meninput nilai data n
-		cin >> arr[1]; //menyimpan nilai data n kedalam array arr
+		cin >> arr[i]; //menyimpan nilai data n kedalam array arr
 	}
 }
 
@@ -36,7 +36,7 @@ void insertionsort() { //procedure inserionsort
 	int temp; //membuat variabel data temporer atau penyimpanan sementara
 	int j; //membuat variabel j sebagai penanda
 
-	for (int i = 1; 1 < n; i++) { // 1. looping dengan i dimulai dari 1 hingga n-1
+	for (int i = 1; i < n; i++) { // 1. looping dengan i dimulai dari 1 hingga n-1
 
 		temp = arr[i]; // 2. simpan nilai arr[i] ke variabel semepnatara temp
 
@@ -54,7 +54,7 @@ void insertionsort() { //procedure inserionsort
 
 		cout << "\nPass" << i << ": "; //output ke layar
 		for (int k = 0; k < n; k++) { //looping nilai k dimulai dari 0 hingga n-1
-			cout << arr[k] << ": "; //output ke layar
+			cout << arr[k] << " "; //output ke layar
 		}
 	}
 
