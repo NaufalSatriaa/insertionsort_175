@@ -31,18 +31,19 @@ void input() { //procedure input
 	}
 }
 
-void insertionsort() {
-	int temp;
-	int j;
+void insertionsort() { //procedure inserionsort
 
-	for (int i = 1; 1 < n; i++) {
+	int temp; //membuat variabel data temporer atau penyimpanan sementara
+	int j; //membuat variabel j sebagai penanda
 
-		temp = arr[i];
+	for (int i = 1; 1 < n; i++) { // 1. looping dengan i dimulai dari 1 hingga n-1
 
-		j = i - 1;
+		temp = arr[i]; // 2. simpan nilai arr[i] ke variabel semepnatara temp
 
-		while (j >= 0 && arr[j] > temp)
+		j = i - 1; // 3. setting nilai j sama dengan i-1
 
+		while (j >= 0 && arr[j] > temp) // 4. looping while dimana nilai j lebih besar sama dengan 0 dan arr[j] lebih besar daripada temp
 
+		{ }
 	}
 }
