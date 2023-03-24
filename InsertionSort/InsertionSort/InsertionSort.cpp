@@ -44,6 +44,9 @@ void insertionsort() { //procedure inserionsort
 
 		while (j >= 0 && arr[j] > temp) // 4. looping while dimana nilai j lebih besar sama dengan 0 dan arr[j] lebih besar daripada temp
 
-		{ }
+		{
+			arr[j + 1] = arr[j];
+			j--;
+		}
 	}
 }
