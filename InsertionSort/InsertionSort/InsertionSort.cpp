@@ -33,4 +33,5 @@ void input() { //procedure input
 
 void insertionsort() {
 	int temp;
+	int j;
 }
