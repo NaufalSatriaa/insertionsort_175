@@ -2,7 +2,7 @@
 using namespace std;
 
 int arr[30]; //membuat array dengan panjang data 20
-int n;
+int n; //membuat variable inputan n
 
 void input() {
 	while (true) {
