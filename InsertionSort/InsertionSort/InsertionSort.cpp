@@ -40,5 +40,9 @@ void insertionsort() {
 		temp = arr[i];
 
 		j = i - 1;
+
+		while (j >= 0 && arr[j] > temp)
+
+
 	}
 }
