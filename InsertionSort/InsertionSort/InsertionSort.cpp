@@ -45,16 +45,16 @@ void insertionsort() { //procedure inserionsort
 		while (j >= 0 && arr[j] > temp) // 4. looping while dimana nilai j lebih besar sama dengan 0 dan arr[j] lebih besar daripada temp
 
 		{
-			arr[j + 1] = arr[j];
-			j--;
+			arr[j + 1] = arr[j]; // 4a. simpan arr[j] ke dalam variabel arr[j+1}
+			j--; // 4b. decrament nilai j by 1
 		}
 
-		arr[j + 1] = temp;
+		arr[j + 1] = temp; // 5. simpan nilai temp ke dalam nilai arr[j+1]
 
 
-		cout << "\nPass" << i << ": ";
-		for (int k = 0; k < n; k++) {
-			cout << arr[k] << ": ";
+		cout << "\nPass" << i << ": "; //output ke layar
+		for (int k = 0; k < n; k++) { //looping nilai k dimulai dari 0 hingga n-1
+			cout << arr[k] << ": "; //output ke layar
 		}
 	}
 }
