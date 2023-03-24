@@ -57,4 +57,12 @@ void insertionsort() { //procedure inserionsort
 			cout << arr[k] << ": "; //output ke layar
 		}
 	}
+
+}
+
+void display() {
+	cout << endl;
+	cout << "=================================" << endl;
+	cout << "element array yang telah tersusun" << endl;
+	cout << "=================================" << endl;
 }
