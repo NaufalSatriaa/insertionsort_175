@@ -5,7 +5,7 @@ int arr[30]; //membuat array dengan panjang data 20
 int n; //membuat variable inputan n
 
 void input() { //procedure input
-	while (true) 
+	while (true)
 	{
 		cout << "masukkan jumlah data pada array : ";
 		cin >> n;
