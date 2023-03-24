@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int arr[30];
+int arr[30]; //membuat array dengan panjang data 20
 int n;
 
 void input() {
